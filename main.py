@@ -113,7 +113,7 @@ if __name__ == '__main__':
             break
         except ValueError:
             pass
-        print("Вы ввели что-то не то. Попробуйте еще раз")
+        print("Вы ввели что-то не то.Попробуйте еще раз")
     match func_s:
         case 1:
             start = time.time()

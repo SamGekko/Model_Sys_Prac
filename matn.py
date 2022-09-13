@@ -30,4 +30,4 @@ def calc_int(a, b, func, exp_num):
         y = (y_max - y_min) * p + y_min
         if func(x) > y:
             m += 1
-    return func(b)*(b-a)*m/exp_num
+    return func(b)*(b-a)*m / exp_num
